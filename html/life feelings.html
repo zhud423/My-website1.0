@@ -4,19 +4,19 @@
     <meta charset="utf-8">
     <meta name="description" content=" ">
     <title>SOF</title>
-    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
-    <link rel="stylesheet" href="style.css">
-    <script src="js/jquery-1.8.3.min.js"></script>
-    <script src="bootstrap/js/bootstrap.js"></script>
-    <script src="js/zhudong.js"></script>
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="../style.css">
+    <script src="../js/jquery-1.8.3.min.js"></script>
+    <script src="../bootstrap/js/bootstrap.js"></script>
+    <script src="../js/zhudong.js"></script>
   </head>
   <body>
     <header>
       <div class="container">
         <div class="row">
           <div class="span6">
-            <a href="#" title="回到首页">
-              <img id="logo" src="images/logo.png" alt="SOF">
+            <a href="index.html" title="回到首页">
+              <img id="logo" src="../images/logo.png" alt="SOF">
             </a>
           </div>
           <div class="span6">
@@ -32,19 +32,22 @@
       <div class="container">
       <div class="navbar">
         <ul class="nav">
-            <li class="active"><a href="#">首页</a></li>
+            <li><a href="../index.html">首页</a></li>
             <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                   祝东印象
                   <b class="caret"></b>
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a href="#">生活随拍</a></li>
+                  <li class="active"><a href="#">生活随拍</a></li>
                   <li><a href="#">到此一游</a></li>
                   <li><a href="#">静物摆拍</a></li>
                 </ul>
             </li>
-            <li><a href="#">活动</a></li>
+            <li><a href="worth recommending.html">值得推荐</a></li>
+            <li><a href="beloved thing.html">心爱之物</a></li>
+            <li class="active"><a href="life feelings.html">生活随感</a></li>
+            <li><a href="resume.html">个人简历</a></li>
           </ul>
       </div>
     </div>
@@ -53,17 +56,21 @@
       <div class="container">
         <div class="row">
           <div class="span8">
-            <h1 class="article-title">火车上</h1>
+            <h1 class="article-title">USB和thunderbolt</h1>
             <footer class="content-meta">
               <time><i class="icon-calendar"></i> 2015-01-12</time>
-              <span><i class="icon-book"></i>生活随拍</span>
-              <span><i class="icon-tags"></i>窗外</span>
-              <span><i class="icon-comment"></i>3</span>
+              <span><i class="icon-book"></i>生活随感</span>
+              <span><i class="icon-tags"></i>专业</span>
+              <span><i class="icon-comment"></i>0</span>
             </footer>
             <div id="content">
-              <img src="content/3.jpg" alt="">
+              <!-- <img src="../content/1.jpg" alt=""> -->
               <p>
-                
+               usb： 大众使用   1.0-3.1 <br/>                         
+采用接口：type-a老式方口，type-c新<br/><br/>
+Thunderbolt：专业领域  Thunderbolt连接技术融合了PCI <br/>Express数据传输技术和DisplayPort显示技术，由一颗Intel专用控制芯片进行驱动。<br/>
+采用接口：minidp、type-c<br/>
+与USB相比，Thunderbolt的优势不仅是带宽更高，更重要的是它使用标准的PCIe总线协议。各种PCIe扩展设备只需简单改装就可以用Thunderbolt连接到主机，连驱动都不需要更换。Thunderbolt还支持方便的菊花链扩展与PC直连高速数据传输功能，这些都是USB协议无法做到，专业用户却非常需要的。 
               </p>
             </div><!-- end #content -->
             <ul class="pager">
@@ -80,20 +87,20 @@
               <li class="active">Data</li>
             </ul>
             <i class="icon-bow"></i>
-            <section id="comments">
+            <!-- <section id="comments">
               <h2>内容的评论 <span class="label label-important">3</span></h2>
               <div class="media">
                 <a class="pull-left" href="#">
-                  <img class="media-object img-circle" src="content/avatar.jpg">
+                  <img class="media-object img-circle" src="../content/avatar.jpg">
                 </a>
                 <div class="media-body">
                   <h4 class="media-heading">祝东<small><time>2015-01-12 上午</time></small></h4>
                   Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat
                
                   <!-- Nested media object -->
-                  <div class="media">
+                  <!-- <div class="media">
                     <a class="pull-left" href="#">
-                      <img class="media-object img-circle" src="content/avatar.jpg">
+                      <img class="media-object img-circle" src="../content/avatar.jpg">
                     </a>
                     <div class="media-body">
                       <h4 class="media-heading">zhudong<small><time>2015-01-12 上午</time></small></h4>
@@ -104,7 +111,7 @@
               </div>
               <div class="media">
                 <a class="pull-left" href="#">
-                  <img class="media-object img-circle" src="content/avatar.jpg">
+                  <img class="media-object img-circle" src="../content/avatar.jpg">
                 </a>
                 <div class="media-body">
                   <h4 class="media-heading">zhudong<small><time>2015-01-12 上午</time></small></h4>
@@ -112,15 +119,21 @@
                
               </div>
               </div>
-            </section>
+            </section> --> 
           </div>
           <div class="span4">
             <aside id="sidebar-right">
               <section>
                 <div class="title-line">
-                  <h3>右边栏区块一</h3>
+                  <h3>Proflie</h3>
                 </div>
-                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat</p>
+                <p>
+                             usb： 大众使用   1.0-3.1 <br/>                         
+采用接口：type-a老式方口，type-c新<br/><br/>
+Thunderbolt：专业领域  Thunderbolt连接技术融合了PCI <br/>Express数据传输技术和DisplayPort显示技术，由一颗Intel专用控制芯片进行驱动。<br/>
+采用接口：minidp、type-c<br/>
+与USB相比，Thunderbolt的优势不仅是带宽更高，更重要的是它使用标准的PCIe总线协议。各种PCIe扩展设备只需简单改装就可以用Thunderbolt连接到主机，连驱动都不需要更换。Thunderbolt还支持方便的菊花链扩展与PC直连高速数据传输功能，这些都是USB协议无法做到，专业用户却非常需要的。 
+                </p>
               </section>
             </aside>
           </div>
